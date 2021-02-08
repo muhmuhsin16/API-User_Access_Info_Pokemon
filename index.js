@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 //create database connection
 const conn = mysql.createConnection({
   host: 'localhost',
-  user: 'testing',
-  password: 'ATIATI',
+  user: 'root',
+  password: '',
   database: 'info_pokemon'
 });
  
